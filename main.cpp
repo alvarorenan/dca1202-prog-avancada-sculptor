@@ -2,6 +2,7 @@
 
 
 int main(void) {
+  /*
   Sculptor sculptor(50, 50, 50); // Criando um escultor de tamanho 50x50x50
 
   // Definindo as cores
@@ -17,6 +18,7 @@ int main(void) {
   sculptor.writeOFF("coracao.off");
 
   return 0;
+  */
   /*
   //exemplo utilizando cut
   Sculptor teste(50, 50, 50);
@@ -33,8 +35,6 @@ int main(void) {
 
   return 0;
   */
-  /*
-  QUADRADOS PARALELOS
   Sculptor teste(50, 50, 50);
 
   // Quadrado 1 (vermelho)
@@ -49,8 +49,8 @@ int main(void) {
   teste.setColor(0, 0, 1, 1);
   teste.putBox(30, 40, 0, 10, 0, 10);
 
-  teste.writeOFF("quadrados.paralelos.off");
+  teste.writeOFF("quadrados.paralelos2.off");
 
   return 0;
-  */
+  
 }
